@@ -140,7 +140,7 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-      background-color: #555;
+      background-color: #00bbcc;
     position: fixed;
     top: 0;
       z-index: 1;
@@ -170,9 +170,8 @@ body {
   }
 }
 
-.descricao{
-    padding-top: 20px;
-    padding-bottom: 10px;
+.moldura{
+    padding-bottom: 60px;
     font-size: 18px;
     text-align: justify;
 }
