@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: darkorange;
 }
 
 /* Custom default button */
@@ -27,12 +27,12 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #444;
+  background-color: #eee;
+    
 }
 body {
-  color: #fff;
+  color: #666;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -109,10 +109,13 @@ body {
 
 .cover {
     position: relative;
-    top: 100px;
+    top: 70px;
     width: 700px;
     margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #888888;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -137,10 +140,11 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-      background-color: #222;
+      background-color: #555;
     position: fixed;
     top: 0;
       z-index: 1;
+      box-shadow: 0px 0px 6px #888888;
   }
   .mastfoot {
     position: fixed;
@@ -171,4 +175,7 @@ body {
     padding-bottom: 10px;
     font-size: 18px;
     text-align: justify;
+}
+a{
+    color: #666;
 }
