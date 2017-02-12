@@ -1,0 +1,130 @@
+/*   layout   */
+/* Corpo da página*/
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url('../imagens/background3.jpg');
+  background-repeat: no-repeat;
+  background-color: #EEAD0E ;
+  background-color: #222;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+  text-align: center;
+}
+
+.inner {
+    padding: 30px;
+}
+
+.cover-main-title{
+  position: relative;
+  text-align: center;
+  top: 120px;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 10px;
+}
+
+.cover-title{
+  position: relative;
+  text-align: justify;
+  top: 130px;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cover-paragraph {
+  position: relative;
+  text-align: justify;
+  top: 120px;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px ;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.cover-container {
+  top: 170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*  Barra de navegação */
+.img-logo {
+  height: 40px;
+  width: 160px;
+  display: block;
+  background: url('../imagens/Astrocast1.svg') no-repeat;
+  background-size: contain;
+  color: transparent;
+}
+
+nav.navbar-transparent {
+  padding: 10px 0px;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.navbar-brand{
+  padding: 8px 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: 	white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color:	white;
+  background: rgba(106, 103, 109, 0.4);
+  border: none;
+  border-radius: 50px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: white;
+  background: rgba(255, 168, 0, 0.3);
+  border: none;
+  border-radius: 50px;
+}
+
+.nav-font {
+  font-weight: bold;
+}
+
+/*  rodapé */
+
+footer{
+  position: relative;
+  top: 130px;
+  width: auto;
+  margin: 0 auto;
+  padding: 40px 30px;
+  background: black;
+  border-radius: none;
+  border: 10px;
+}
+
+/*   Tipografia  */
